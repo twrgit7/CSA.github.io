@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VulNyx
+title: Cyber Sith Academy
 ---
 
 {% include bin_table.html %}
