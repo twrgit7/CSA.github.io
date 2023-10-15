@@ -2,6 +2,9 @@
 
 Welcome to the Cyber Sith Academy, a platform dedicated to mastering the art of cybersecurity with a dark twist. Uncover the secrets of the digital realm and emerge as a master of unparalleled digital defense.
 
+ Learn and practice cyber security by playing with our VMs.
+cybersithacademy.com 
+
 ## About
 
 The Cyber Sith Academy is an innovative cybersecurity learning platform that combines the principles of the Sith with cutting-edge cybersecurity techniques. Our mission is to empower individuals to embrace the darkness within the digital realm and become formidable guardians of the cyber galaxy.
