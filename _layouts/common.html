@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="https://vulnyx.com/assets/favicon.png">
+        <link rel="canonical" href="https://vulnyx.com/">
+        <link rel="stylesheet" href="/assets/style.css" type="text/css" title="regular">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="keywords" content="Hacking, Cybersecurity, CTF, Vulns, VMs">
+        <meta name="description" content="Learn and practice cyber security by playing with our VMs." />
+        <meta name="author" content="VulNyx team" />
+        <meta property="og:title" content="VulNyx">
+        <meta property="og:site_name" content="VulNyx">
+        <meta property="og:url" content="https://vulnyx.com">
+        <meta property="og:description" content="Learn and practice cyber security by playing with our VMs.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://vulnyx.com/assets/logoSM.png">
+        <title>
+            {% if page.url != '/' %}
+            {% if page.layout == 'bin' %}
+            {{ page.title | downcase }}
+            {% else %}
+            {{ page.title }}
+            {% endif %}
+            |
+            {% endif %}
+            {{ site.title }}
+        </title>
+        <script async defer src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    </head>
+    <body>
+        {{ content }}
+        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+        <script>
+        kofiWidgetOverlay.draw('vulnyx', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#d9534f',
+        'floating-chat.donateButton.text-color': '#fff'
+        });
+        </script>
+    </body>
+</html>
