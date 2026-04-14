@@ -1,5 +1,8 @@
 ---
-title: VulNyx
+title: Cyber Sith Academy
+description: Learn and practice cybersecurity by playing with our VMs.
+url: ""
+baseurl: ""
 
 exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md', '/CONTRIBUTING.md']
 
