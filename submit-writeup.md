@@ -43,7 +43,7 @@ title: Submit Writeup
 {% endraw %}
 
 <footer>
-  <p>© Copyrights 2023 Root Corp. All rights reserved.</p>
+  <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
 </footer>
 
 <script>
@@ -76,7 +76,7 @@ title: Submit Writeup
       body: formData
     })
     .then(response => {
-      console.log("Submit succesfully! Thanks.");
+      console.log("Submitted successfully! Thanks.");
     })
     .catch(error => {
       console.log("The submission was successful but the github pages are throwing a CORS error. Don't worry.");
