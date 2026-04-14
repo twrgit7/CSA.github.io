@@ -9,11 +9,11 @@ title: Submit VM
 <section class="form-container">
   <form class="form submit-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
     <article class="form-options">
-      <a href="/submit/" class="active">
+      <a href="{{ '/submit/' | relative_url }}" class="active">
         <strong>VM</strong>
       </a> 
       <span class="form-separator">|</span>
-      <a href="/submit-writeup">
+      <a href="{{ '/submit-writeup' | relative_url }}">
         <strong>Writeup</strong>
       </a> 
     </article>
@@ -59,7 +59,7 @@ title: Submit VM
     </div>
     <div class="form-footer">
       <small>Please read our 
-        <a href="/rules" target="_blank">
+        <a href="{{ '/rules' | relative_url }}" target="_blank">
           <strong>Rules</strong>
         </a> 
         section before submitting a new vm.

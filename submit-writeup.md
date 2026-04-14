@@ -9,11 +9,11 @@ title: Submit Writeup
 <section class="form-container">
   <form class="form submit-form" id="myForm" action="https://formspree.io/f/xbjewngg" method="POST">
     <article class="form-options">
-      <a href="/submit/">
+      <a href="{{ '/submit/' | relative_url }}">
         <strong>VM</strong>
       </a> 
       <span class="form-separator">|</span>
-      <a href="/submit-writeup" class="active">
+      <a href="{{ '/submit-writeup' | relative_url }}" class="active">
         <strong>Writeup</strong>
       </a> 
     </article>
@@ -31,7 +31,7 @@ title: Submit Writeup
     </div>
     <div class="form-footer">
       <small>Please read our 
-        <a href="/rules" target="_blank">
+        <a href="{{ '/rules' | relative_url }}" target="_blank">
           <strong>Rules</strong>
         </a> 
         section before submitting a new writeup.
