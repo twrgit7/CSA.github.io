@@ -28,7 +28,9 @@ bundle exec jekyll serve
 
 1. Push this repository to GitHub.
 2. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-3. Push to the `main` branch (or run the workflow manually from the Actions tab).
+
+3. Push to the `main` or `master` branch (or run the workflow manually from the Actions tab).
+
 4. Wait for the **Deploy Jekyll site to Pages** workflow to finish.
 
 No custom domain is required.
